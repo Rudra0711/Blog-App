@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:src="@drawable/default_profile"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="7dp"
+        android:id="@+id/profileComment"/>
+
+    <TextView
+        android:layout_width="152dp"
+        android:layout_height="14dp"
+        android:text="Rudra0711"
+        app:layout_constraintEnd_toEndOf="@+id/profileComment"
+        app:layout_constraintStart_toStartOf="@+id/profileComment"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="8dp"
+        android:gravity="top"
+        android:textSize="10dp"
+        android:padding="1dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="55dp"
+        android:id="@+id/commentUsername"/>
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="25dp"
+        android:text="Comment........"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="22dp"
+        android:textSize="12dp"
+        android:id="@+id/TheComment"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="14dp"
+        android:text="29 January, 2019"
+        app:layout_constraintEnd_toEndOf="@+id/profileComment"
+        app:layout_constraintStart_toStartOf="@+id/profileComment"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="8dp"
+        android:textSize="10dp"
+        android:padding="1dp"
+        android:gravity="top"
+        android:layout_marginLeft="300dp"
+        android:id="@+id/commentDate"/>
+
+</FrameLayout>

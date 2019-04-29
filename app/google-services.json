@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "747266722210",
+    "firebase_url": "https://social-networking-634ac.firebaseio.com",
+    "project_id": "social-networking-634ac",
+    "storage_bucket": "social-networking-634ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747266722210:android:3671cb609b4ecc1f",
+        "android_client_info": {
+          "package_name": "com.rudraksh.socialnetworkingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747266722210-g20ud9hska60ai5hn597rmjvqprvla3v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rudraksh.socialnetworkingapp",
+            "certificate_hash": "315dc0f8bd7534189c91f81374d795e98341d831"
+          }
+        },
+        {
+          "client_id": "747266722210-iqijvmu78a6a2hhsrh3dklfgadu719p0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeU5gdgnhz4LxUmAOv3d3Rzut51fbD_cg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747266722210-iqijvmu78a6a2hhsrh3dklfgadu719p0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

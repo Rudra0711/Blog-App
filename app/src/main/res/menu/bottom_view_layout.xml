@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/homeBottomView"></item>
+
+    <item
+        android:title="Notifications"
+        android:icon="@drawable/ic_notifications"
+        android:id="@+id/notificationBottomView"></item>
+
+    <item
+        android:title="Account"
+        android:icon="@drawable/ic_person"
+        android:id="@+id/accountBottomView"></item>
+
+</menu>
